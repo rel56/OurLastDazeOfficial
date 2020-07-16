@@ -115,14 +115,11 @@ iframe {
   /* Shows page */
 
   .flyer {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
-    height: auto;
-    width: 50%;
+    max-width:100%;
+    height:auto;
     margin-top: 40px;
     margin-bottom: 40px;
+    
   }
 
   html, body, #wrap {
