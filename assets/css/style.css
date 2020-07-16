@@ -103,15 +103,43 @@ iframe {
     margin-top: 40px; /* space between content and footer */
     box-sizing: border-box;
    
-
   
     /* Box-model */
     width: 100%;
-
-  
-    /* Visual */
-    background-color: #666;
   }
   
 
   /* END FOOTER */
+
+  /* Shows page */
+
+  .flyer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  html, body, #wrap {
+    height: 100%;
+}
+#wrap {
+    height: auto;
+    min-height: 80%;
+}
+#content {
+    overflow: hidden;
+    padding-bottom: (footer height);
+}
+#footer { 
+    position: relative;
+    clear:both;
+} 
+
+h2 {
+    color: black;
+    font-weight: bolder;
+    padding: 20px;
+}
