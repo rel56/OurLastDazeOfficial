@@ -70,11 +70,7 @@ body {
     background-image: url("../images/old.jpg")  !important;
     background-size: cover;
     background-repeat: no-repeat;
-
-
 }
-
-
 
 iframe {
     display: block;
@@ -164,3 +160,39 @@ h2 {
     font-weight: bolder;
     padding: 20px;
 }
+
+/* Contact page */
+
+#contact {
+    height: auto;
+    min-height: 80%;
+   
+}
+
+.form-control {
+    /* give input boxes right angles */
+    border-radius: 0;
+  
+    /* keep from horizontally resizing text area */
+    min-width: 100%;
+    max-width: 100%;
+  }
+  
+  .submit-btn {
+    /* Box-model */
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: lighter;
+    margin-left: 10px;
+  
+    /* Typography */
+    color: #fff;
+  
+    /* Visual */
+    background-color: #666;
+    border: 0;
+  }
+  
+  .submit-btn:hover {
+    opacity: .7;
+  }
