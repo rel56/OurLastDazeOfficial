@@ -1,6 +1,9 @@
 body {
-    /* Typography */
+    /* Typography 
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    */
+
+    font-family: 'Quantico', sans-serif;
   
     /* Visual */
     background-color: lightgray;
@@ -195,4 +198,8 @@ h2 {
   
   .submit-btn:hover {
     opacity: .7;
+  }
+
+  h1 {
+    margin-left: 10px;
   }
