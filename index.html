@@ -28,6 +28,10 @@
 
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
 
   <!-- Our own CSS stylesheet -->
   <link rel="stylesheet" href="assets/css/style.css" media="screen">
@@ -65,19 +69,47 @@
   </nav>
   <!-- End of navbar -->
 
-  <!-- Start of container -->
-  <div class="row">
-    <div class="jumbotron text-center">
-        <div class="overlay">
-            <div class="background-image"></div>
-            <div class="caption">
-                <img src="assets/images/OLDLOGO2.png" height="300px" width="350px">
-            </div>
+  <div class="container">
+   
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+      </ol>
+  
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+          <div class="overlay">
+              <img src="assets/images/OLDLOGO2.png" width="400px" height="300px">
+          </div>
+        <div class="item active">
+          <img src="assets/images/old.jpg" style="width:100%;">
         </div>
-    </div>
-</div>
-  <!-- End of container -->
+  
+        <div class="item">
+          <img src="assets/images/old1.jpg"  style="width:100%;">
+        </div>
+      
+        <div class="item">
+          <img src="assets/images/old2.jpg" style="width:100%;">
+        </div>
 
+        <div class="item">
+            <img src="assets/images/old3.jpg"  style="width:100%;">
+          </div>
+
+          <div class="item">
+            <img src="assets/images/old4.jpg" style="width:100%;">
+          </div>
+      </div>
+  
+
+    </div>
+  </div>
 
 
   <div class="w3-panel w3-gray w3-topbar w3-bottombar w3-border-black">
