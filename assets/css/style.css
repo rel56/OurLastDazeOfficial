@@ -73,6 +73,8 @@ body {
     background-image: url("../images/old.jpg")  !important;
     background-size: cover;
     background-repeat: no-repeat;
+    
+    background-position: center;
 }
 
 
