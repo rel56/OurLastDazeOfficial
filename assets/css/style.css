@@ -46,6 +46,11 @@ body {
       background-color: #666;
     }
   }
+
+  .navIcon{
+    max-width: 10%;
+    height: auto;
+  }
   
 
   /* END NAV */
@@ -122,9 +127,8 @@ iframe {
   /* Shows page */
 
   .flyer {
-    max-width:100%;
+    max-width:50%;
     height:auto;
-    width: 70%;
     margin: auto;
   }
 
