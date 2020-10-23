@@ -50,6 +50,9 @@ body {
   .navIcon{
     max-width: 10%;
     height: auto;
+    margin-left: auto;
+    margin-right: auto;
+
   }
   
 
@@ -127,7 +130,7 @@ iframe {
   /* Shows page */
 
   .flyer {
-    max-width:50%;
+    width:500px;
     height:auto;
     margin: auto;
   }
